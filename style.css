@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 239, 228);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    width: 900px;
+    
+}
+.left{
+    height: 160vh;
+    width: 45vw;
+    background-color: rgb(208, 245, 245);
+    color: black;
+    padding: 10px;
+}
+.right{
+    height:160vh;
+    width: 70vw;
+    background-color: rgb(126, 199, 175);
+    color: black;
+    padding: 10px;
+    padding-left: 18px;
+}
+.image{
+    padding-left: 80px;
+}
+ul{
+    list-style: disc;
+}
+.Hardskills,.contact,.language,.hobbies,.Softskills,.table,.Education,.project,.location{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom:20px;
+    
+}
+.Hardskills p b{
+    font-size: 20px;
+}
+.Softskills p b{
+    font-size: 20px;
+}
+.name p1{
+    text-transform: uppercase;
+    text-align:initial;
+    font-size: 30px;
+    font-weight: 800;
+}
+.summary,.address{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+table th{
+    font-weight: 600;
+    font-size: 15px;
+}
